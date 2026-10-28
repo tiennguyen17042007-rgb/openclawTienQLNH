@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Shopping System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#">Shop<span>Online</span></a>
+      <nav>
+        <a href="#products">Sản phẩm</a>
+        <a href="#about">Giới thiệu</a>
+      </nav>
+      <button id="cart-toggle" class="cart-button">🛒 Giỏ hàng <span id="cart-count">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">MUA SẮM DỄ DÀNG • NHANH CHÓNG</p>
+          <h1>Tìm món đồ<br><span>bạn yêu thích.</span></h1>
+          <p>Khám phá sản phẩm nổi bật với mức giá hợp lý.</p>
+          <a class="primary-button" href="#products">Khám phá ngay</a>
+        </div>
+        <div class="hero-art" aria-hidden="true">🛍️</div>
+      </div>
+    </section>
+
+    <section id="products" class="container section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">BỘ SƯU TẬP</p>
+          <h2>Sản phẩm nổi bật</h2>
+        </div>
+        <input id="search-input" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Tìm kiếm sản phẩm">
+      </div>
+      <div id="category-filters" class="filters"></div>
+      <div id="product-grid" class="product-grid"></div>
+      <p id="empty-message" class="empty-message hidden">Không tìm thấy sản phẩm phù hợp.</p>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2>Mua sắm thuận tiện hơn</h2>
+        <p>Website mẫu bán hàng trực tuyến được xây dựng bằng HTML, CSS và JavaScript.</p>
+        <div class="benefits">
+          <div>📦 <strong>Sản phẩm đa dạng</strong><span>Dễ dàng khám phá mặt hàng.</span></div>
+          <div>🛒 <strong>Giỏ hàng tiện lợi</strong><span>Cập nhật số lượng và tổng tiền.</span></div>
+          <div>💬 <strong>Hỗ trợ khách hàng</strong><span>Gửi câu hỏi cho cửa hàng.</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="cart-overlay" class="overlay hidden"></div>
+  <aside id="cart-panel" class="cart-panel" aria-label="Giỏ hàng" aria-hidden="true">
+    <div class="cart-heading">
+      <h2>Giỏ hàng của bạn</h2>
+      <button id="cart-close" class="icon-button" aria-label="Đóng giỏ hàng">✕</button>
+    </div>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-footer">
+      <div class="total-line"><span>Tạm tính</span><strong id="cart-total">0 ₫</strong></div>
+      <button id="checkout-button" class="primary-button full-width">Đặt hàng</button>
+      <p class="small-note">Bản demo: đơn hàng chưa được gửi đến máy chủ.</p>
+    </div>
+  </aside>
+
+  <dialog id="checkout-dialog">
+    <form id="checkout-form" method="dialog">
+      <div class="dialog-heading">
+        <h2>Thông tin đặt hàng</h2>
+        <button type="button" id="checkout-close" class="icon-button" aria-label="Đóng">✕</button>
+      </div>
+      <label>Họ và tên<input name="customerName" required placeholder="Nguyễn Văn A"></label>
+      <label>Số điện thoại<input name="phone" required type="tel" placeholder="09xxxxxxxx"></label>
+      <label>Địa chỉ nhận hàng<textarea name="address" required rows="3" placeholder="Số nhà, đường, phường/xã..."></textarea></label>
+      <button class="primary-button full-width" type="submit">Xác nhận đơn hàng</button>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+  <footer><div class="container footer-content"><span>© 2026 ShopOnline — Dự án học tập</span><span>HTML · CSS · JavaScript · JSON</span></div></footer>
+  <script src="app.js"></script>
+</body>
+</html>
