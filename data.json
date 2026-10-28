@@ -1,0 +1,66 @@
+[
+  {
+    "id": "p001",
+    "name": "Tai nghe không dây",
+    "category": "Điện tử",
+    "description": "Âm thanh rõ nét, thiết kế gọn nhẹ.",
+    "price": 590000,
+    "emoji": "🎧"
+  },
+  {
+    "id": "p002",
+    "name": "Đồng hồ tối giản",
+    "category": "Phụ kiện",
+    "description": "Phong cách thanh lịch cho mọi ngày.",
+    "price": 450000,
+    "emoji": "⌚"
+  },
+  {
+    "id": "p003",
+    "name": "Balo đi học",
+    "category": "Thời trang",
+    "description": "Nhiều ngăn tiện dụng, dễ phối đồ.",
+    "price": 320000,
+    "emoji": "🎒"
+  },
+  {
+    "id": "p004",
+    "name": "Bình nước giữ nhiệt",
+    "category": "Gia dụng",
+    "description": "Phù hợp mang theo khi học và làm.",
+    "price": 180000,
+    "emoji": "🧴"
+  },
+  {
+    "id": "p005",
+    "name": "Bàn phím cơ",
+    "category": "Điện tử",
+    "description": "Gõ êm tay, phù hợp học tập và làm việc.",
+    "price": 890000,
+    "emoji": "⌨️"
+  },
+  {
+    "id": "p006",
+    "name": "Áo thun basic",
+    "category": "Thời trang",
+    "description": "Chất liệu mềm, kiểu dáng dễ mặc.",
+    "price": 199000,
+    "emoji": "👕"
+  },
+  {
+    "id": "p007",
+    "name": "Túi đeo chéo",
+    "category": "Phụ kiện",
+    "description": "Nhỏ gọn, tiện mang theo khi ra ngoài.",
+    "price": 260000,
+    "emoji": "👜"
+  },
+  {
+    "id": "p008",
+    "name": "Đèn bàn học",
+    "category": "Gia dụng",
+    "description": "Ánh sáng dễ chịu cho góc học tập.",
+    "price": 240000,
+    "emoji": "💡"
+  }
+]
