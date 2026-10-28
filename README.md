@@ -69,7 +69,7 @@ Nhấn **Code → Download ZIP**, sau đó giải nén vào máy tính.
 
 ## 6. 🚀 Chạy Demo Dự Án Trực Tuyến
 
-👉 **[Bấm vào đây để chạy Demo Website](https://tiennguyen17042007-rgb.github.io/openclawTienQLNH/)**
+👉 **[Bấm vào đây để chạy Demo Website](https://tiennguyen17042007-rgb.github.io/openclawTienQLNH/index.html)**
 
 Người dùng có thể mở đường dẫn demo để trải nghiệm website trực tiếp trên trình duyệt mà không cần mở VS Code.
 
